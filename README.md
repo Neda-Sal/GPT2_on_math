@@ -1,8 +1,8 @@
 # GPT-2 on Math
 
-In a [previous project](https://github.com/Neda-Sal/Twitter_on_Math), I collected 9,000 tweets (~6,500 after cleaning and dropping duplicates) with the keyword math to do topic modeling and sentiment analysis. At the time I collected the tweets, 
+In a [previous project](https://github.com/Neda-Sal/Twitter_on_Math), I collected 9,000 tweets (~6,500 after cleaning and dropping duplicates) with the keyword math to do topic modeling and sentiment analysis.
 
-I decided I wanted to train a model to output AI generated math tweets. I trained a GPT-2 model on the 6,500 tweets and a theme in some of the tweets is about the election. 
+I decided I wanted to train a model to output AI generated math tweets. I trained a GPT-2 model on the 6,500 tweets. 
 
 After training for 4 epochs, here are some tweets that were generated:
 
@@ -41,9 +41,9 @@ s
 > i tried to explain to him that i suck at math, that i suck at electoral math, that i dont know the electoral college vote. he actually laughed- i wouldnt have if i only had been a sophomore in high school.
 
 
-It should be noted that around the time that the votes for the 2020 election were being counted, I was scraping twitter for tweets with the keyword math. Unsurprisingly, when I did topic modeling, tweets about the election had its own topic cluster. Other topic clusters included math teachers, math being hard, needing help with math, and various meme formats. More details on the topics can be found in my GitHub [project repo](https://github.com/Neda-Sal/Twitter_on_Math), or in the [blog post](https://towardsdatascience.com/math-unsupervised-a3667b6ec9b8) I wrote about that project.
+It should be noted that I was scraping twitter for tweets with the keyword math around the time that the votes for the 2020 U.S. election were being counted. Unsurprisingly, when I did topic modeling, tweets about the election had its own topic cluster. Other topic clusters included math teachers, math being hard, needing help with math, and various meme formats. More details on the topics can be found in my GitHub [project repo](https://github.com/Neda-Sal/Twitter_on_Math), or in the [blog post](https://towardsdatascience.com/math-unsupervised-a3667b6ec9b8) I wrote about that project.
 
-I found it interesting (although perhaps not very surprising) that the themes appearing in the generated tweets are consistent with the topics I uncovered in my previous project. I also found it quite interesting that the model generated it's own links for some of the tweets.
+I found it interesting (although perhaps not very surprising) that the themes appearing in the generated tweets are consistent with the topics I uncovered in my previous project. I also found it quite interesting that the model included its own links for some of the tweets.
 
 
 I would be interested to see more AI generated tweets after another round of cleaning.
